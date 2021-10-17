@@ -32,6 +32,7 @@ public class WebCalculatorController {
             return "Деление на 0 запрещено";
         } else {
             return num1 + " / " + num2 + " = " + webCalculatorService.getResultDivide(num1, num2);
+
         }
     }
 

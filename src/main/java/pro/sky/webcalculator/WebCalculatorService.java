@@ -6,4 +6,5 @@ public interface WebCalculatorService {
     int getResultDivide(int num1, int num2);
     int getResultMultiply(int num1, int num2);
 
+
 }

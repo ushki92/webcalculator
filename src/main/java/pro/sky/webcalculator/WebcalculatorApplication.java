@@ -10,4 +10,5 @@ public class WebcalculatorApplication {
 		SpringApplication.run(WebcalculatorApplication.class, args);
 	}
 
+
 }

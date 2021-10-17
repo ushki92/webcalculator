@@ -7,11 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WebCalculatorServiceImpl implements WebCalculatorService {
 
 
-
-    private int result;
-
-
-
     @GetMapping("/calculator/plus")
     public int getResultPlus(int num1, int num2) {
         return num1 + num2;
